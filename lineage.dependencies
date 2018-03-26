@@ -12,5 +12,5 @@
     "repository": "vendor_xiaomi",
     "target_path": "vendor/xiaomi",
     "remote": "own_libra"
-  },
+  }
 ]
