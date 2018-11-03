@@ -385,6 +385,7 @@ vendor/lib64/librs_adreno_sha1.so
 vendor/lib64/libRSDriver_adreno.so
 vendor/lib64/libscale.so
 
+
 # GPU firmware
 etc/firmware/a420_pfp.fw
 etc/firmware/a420_pm4.fw

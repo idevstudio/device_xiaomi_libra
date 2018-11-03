@@ -170,14 +170,14 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-    libshims_get_process_name \
-    libshims_is_wifi_driver_loaded \
-    android.hardware.gnss@1.0-impl
+    android.hardware.gnss@1.0-impl \
+    gps.msm8992
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps/flp.conf:system/etc/flp.conf \
     $(LOCAL_PATH)/configs/gps/gps.conf:system/etc/gps.conf \
     $(LOCAL_PATH)/configs/gps/izat.conf:system/etc/izat.conf \
+    $(LOCAL_PATH)/configs/gps/izat.conf:system/etc/lowi.conf \
     $(LOCAL_PATH)/configs/gps/sap.conf:system/etc/sap.conf
 
 PRODUCT_COPY_FILES += \
